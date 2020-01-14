@@ -1,0 +1,67 @@
+﻿  TibetanFish.cpp
+c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\segmentation\supervoxel_clustering.h(528): warning C4396: “boost::checked_delete”: 友元声明引用函数模板的专用化时无法使用内联说明符
+  c:\users\neau_\desktop\tibetfishseg\tibetanfishpcl\tibetanfishpcl\tibetanfish.cpp(203): note: 参见对正在编译的类 模板 实例化“pcl::SupervoxelClustering<PointT>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(54): note: 参见对正在编译的类 模板 实例化“boost::arg<9>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(53): note: 参见对正在编译的类 模板 实例化“boost::arg<8>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(52): note: 参见对正在编译的类 模板 实例化“boost::arg<7>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(51): note: 参见对正在编译的类 模板 实例化“boost::arg<6>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(50): note: 参见对正在编译的类 模板 实例化“boost::arg<5>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(49): note: 参见对正在编译的类 模板 实例化“boost::arg<4>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(48): note: 参见对正在编译的类 模板 实例化“boost::arg<3>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(47): note: 参见对正在编译的类 模板 实例化“boost::arg<2>”的引用
+  c:\users\neau_\programsfile\pcl 1.8.1\3rdparty\boost\include\boost-1_64\boost\bind\placeholders.hpp(46): note: 参见对正在编译的类 模板 实例化“boost::arg<1>”的引用
+c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\octree\octree_pointcloud_adjacency_container.h(120): warning C4316: “pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>”: 在堆上分配的对象可能不是对齐 16
+          with
+          [
+              PointT=PointT
+          ]
+  c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\octree\octree_pointcloud_adjacency_container.h(119): note: 编译类 模板 成员函数“pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>::deepCopy(void) const”时
+          with
+          [
+              PointT=PointT
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1581): note: 参见对正在编译的类 模板 实例化“pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>”的引用
+          with
+          [
+              PointT=PointT
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1580): note: 编译类 模板 成员函数“void std::vector<pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *,std::allocator<_Ty>>::_Destroy(pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> **,pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> **)”时
+          with
+          [
+              PointT=PointT,
+              _Ty=pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1640): note: 参见对正在编译的函数 模板 实例化“void std::vector<pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *,std::allocator<_Ty>>::_Destroy(pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> **,pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> **)”的引用
+          with
+          [
+              PointT=PointT,
+              _Ty=pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *
+          ]
+  c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\octree\octree_base.h(521): note: 参见对正在编译的类 模板 实例化“std::vector<pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *,std::allocator<_Ty>>”的引用
+          with
+          [
+              PointT=PointT,
+              _Ty=pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData> *
+          ]
+  c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\octree\octree_pointcloud.h(74): note: 参见对正在编译的类 模板 实例化“pcl::octree::OctreeBase<LeafContainerT,BranchContainerT>”的引用
+          with
+          [
+              LeafContainerT=pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>,
+              BranchContainerT=pcl::octree::OctreeContainerEmpty
+          ]
+  c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\octree\octree_pointcloud_adjacency.h(80): note: 参见对正在编译的类 模板 实例化“pcl::octree::OctreePointCloud<PointT,LeafContainerT,BranchContainerT,pcl::octree::OctreeBase<LeafContainerT,BranchContainerT>>”的引用
+          with
+          [
+              PointT=PointT,
+              LeafContainerT=pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>,
+              BranchContainerT=pcl::octree::OctreeContainerEmpty
+          ]
+  c:\users\neau_\programsfile\pcl 1.8.1\include\pcl-1.8\pcl\segmentation\supervoxel_clustering.h(393): note: 参见对正在编译的类 模板 实例化“pcl::octree::OctreePointCloudAdjacency<PointT,pcl::octree::OctreePointCloudAdjacencyContainer<PointT,pcl::SupervoxelClustering<PointT>::VoxelData>,pcl::octree::OctreeContainerEmpty>”的引用
+          with
+          [
+              PointT=PointT
+          ]
+  c:\users\neau_\desktop\tibetfishseg\tibetanfishpcl\tibetanfishpcl\tibetanfish.cpp(203): note: 参见对正在编译的类 模板 实例化“pcl::SupervoxelClustering<PointT>”的引用
+  TibetanFishPCL.vcxproj -> C:\Users\neau_\Desktop\TibetFishSeg\TibetanFishPCL\Debug\TibetanFishPCL.exe
+  TibetanFishPCL.vcxproj -> C:\Users\neau_\Desktop\TibetFishSeg\TibetanFishPCL\Debug\TibetanFishPCL.pdb (Full PDB)

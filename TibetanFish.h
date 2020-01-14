@@ -48,7 +48,7 @@ struct RGB {
 	int g;
 	int b;
 };
-//´æ¶¥µãĞÅÏ¢
+//å­˜é¡¶ç‚¹ä¿¡æ¯
 struct _xyz {
 	double x;
 	double y;
@@ -57,18 +57,18 @@ struct _xyz {
 	int g=0;
 	int b=0;
 };
-//ÎÆÀí×ø±ê
+//çº¹ç†åæ ‡
 struct _xy {
 	double x;
 	double y;
 };
-//·¨Ïß
+//æ³•çº¿
 struct _normal {
 	double nx;
 	double ny;
 	double nz;
 };
-//Ãæ
+//é¢
 struct _trif {
 	int v[3];
 	int t[3];
@@ -77,32 +77,32 @@ struct _trif {
 
 class TibetanFish {
 public:
-	int RemovePlane(string plyfile);
-	void FishOnlyLCCP(string plyfile);
-	int FishOnlyRegion(string plyfile);
-	int FishOnlyRegionRGB(string plyfile);
-	int FishDownSample(pcl::PointCloud<PointT>::Ptr cloud);
-	int FishOverSegmentation(pcl::PointCloud<PointT>::Ptr cloud);
-	int Point2Voxel(PointCloudT::Ptr cloud);
-	int Label2Color(pcl::PointCloud<PointTL>::Ptr cloud);
-	int FacetSegmentation(PointCloudT::Ptr cloud);
-	int FindPrincipalDir(PointCloudT::Ptr cloud);
-	int GetFishHead(PointCloud::Ptr cloud);
-	PointCloudT::Ptr TransformCloud(PointCloudT::Ptr cloud);//°ÑÓã·Åµ½×ø±êÖáÉÏ
-	int ProjectionFish(PointCloudT::Ptr cloud);
-	PointCloudT::Ptr SortByX(PointCloudT::Ptr cloud);
-	int DrawaLine();
-	PointCloudT::Ptr ReadObj(string filename);
+	int RemovePlane(string plyfile);//å‰”é™¤å¹³é¢
+	void FishOnlyLCCP(string plyfile);//LCCPåˆ†å‰²
+	int FishOnlyRegion(string plyfile);//åŒºåŸŸç”Ÿé•¿åˆ†å‰²
+	int FishOnlyRegionRGB(string plyfile);//åŸºäºRGBçš„åŒºåŸŸç”Ÿé•¿åˆ†å‰²
+	int FishDownSample(pcl::PointCloud<PointT>::Ptr cloud);//é™é‡‡æ ·
+	int FishOverSegmentation(pcl::PointCloud<PointT>::Ptr cloud);//è¿‡åˆ†å‰²
+	int Point2Voxel(PointCloudT::Ptr cloud);//ç‚¹å˜ä½“ç´ 
+	int Label2Color(pcl::PointCloud<PointTL>::Ptr cloud);//ä¸ºåˆ†å±‚çš„ç‚¹äº‘æŸ“è‰²
+	int FacetSegmentation(PointCloudT::Ptr cloud);//å°é¢åˆ†å‰²
+	int FindPrincipalDir(PointCloudT::Ptr cloud);//PCAæ‰¾ä¸»è½´
+	int GetFishHead(PointCloud::Ptr cloud);//ç²—é…å‡†æ‰¾é±¼å¤´
+	PointCloudT::Ptr TransformCloud(PointCloudT::Ptr cloud);//æŠŠé±¼æ”¾åˆ°åæ ‡è½´ä¸Š
+	int ProjectionFish(PointCloudT::Ptr cloud);//æŠ•å½±
+	PointCloudT::Ptr SortByX(PointCloudT::Ptr cloud);//æŒ‰Xè½´æ’åº
+	int DrawaLine();//ç”»çº¿
+	PointCloudT::Ptr ReadObj(string filename);//è¯»å–obj
 	int SegFishOnly();
-	int ObjToMat(string filename);
+	int ObjToMat(string filename);//è½¬æˆpcd åé¢è¦è½¬æˆå›¾ç‰‡
 
 private:
 	MatrixXf avg;
 	MatrixXf rot;
-	vector<_xyz> V;//´æ¶¥µã×ø±ê
-	vector<_xy> VT;//´æÎÆÀí×ø±ê
-	vector<_normal> VN;//·¨ÏòÁ¿
-	vector<_trif> F;//Ãæ
+	vector<_xyz> V;//å­˜é¡¶ç‚¹åæ ‡
+	vector<_xy> VT;//å­˜çº¹ç†åæ ‡
+	vector<_normal> VN;//æ³•å‘é‡
+	vector<_trif> F;//é¢
 	int TEXWIDTH;
 	int TEXHEIGHT;
 };
